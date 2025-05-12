@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GPTPilot.cpp" />
+    <ClCompile Include="Connector.cpp">
+      <Filter>connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Connector.h">
+      <Filter>connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ui">
+      <UniqueIdentifier>{4a0345e6-d745-43e1-bdad-c6da81674540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="connection">
+      <UniqueIdentifier>{8bcb98b5-8391-4e18-bccf-548e6fa12a9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
