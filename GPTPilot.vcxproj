@@ -95,7 +95,7 @@
     <TargetName>win</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test__|x64'">
-    <OutDir>H:\SteamLibrary\steamapps\common\X-Plane 12\Aircraft\Debug\Testing Aircraft (738)\plugins\$(TargetName)\64\</OutDir>
+    <OutDir>C:\Program Files (x86)\Steam\steamapps\common\X-Plane 12\Resources\plugins\$(TargetName)\64\</OutDir>
     <IntDir>.\Testing\64\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.xpl</TargetExt>
@@ -243,7 +243,7 @@
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
-      <AdditionalIncludeDirectories>SDK\CHeaders\XPLM;SDK\CHeaders\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>SDK\CHeaders\XPLM;C:\vcpkg\installed\x64-windows\include;SDK\CHeaders\Widgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WINVER=0x0601;_WIN32_WINNT=0x0601;_WIN32_WINDOWS=0x0601;WIN32;_DEBUG;_WINDOWS;_USRDLL;SIMDATA_EXPORTS;IBM=1;XPLM200=1;XPLM210=1;XPLM300=1;XPLM301=1;XPLM302=1;XPLM303=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\64\</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>.\Debug\64\${ProjectName}.pch</PrecompiledHeaderOutputFile>
@@ -283,9 +283,11 @@
     <ClCompile Include="Connector.cpp" />
     <ClCompile Include="Connector.h" />
     <ClCompile Include="GPTPilot.cpp" />
+    <ClCompile Include="Plane.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Plane.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

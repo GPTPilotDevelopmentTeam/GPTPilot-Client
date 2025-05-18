@@ -11,6 +11,9 @@
     <ClCompile Include="Window.cpp">
       <Filter>ui</Filter>
     </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>manipulate</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ui">
@@ -19,10 +22,16 @@
     <Filter Include="connection">
       <UniqueIdentifier>{8bcb98b5-8391-4e18-bccf-548e6fa12a9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="manipulate">
+      <UniqueIdentifier>{ecd9852e-99cf-42d5-b247-c7a8478b96c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Window.h">
       <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>manipulate</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
