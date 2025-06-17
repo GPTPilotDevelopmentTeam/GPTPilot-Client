@@ -1,0 +1,13 @@
+﻿  Connector.cpp
+C:\Users\hansh\OneDrive\Documents\GitHub\GPTPilot\GPTPilot-Client\Connector.cpp(72,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Connector.h
+  GPTPilot.cpp
+C:\Users\hansh\OneDrive\Documents\GitHub\GPTPilot\GPTPilot-Client\GPTPilot.cpp(20,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hansh\OneDrive\Documents\GitHub\GPTPilot\GPTPilot-Client\GPTPilot.cpp(21,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\hansh\OneDrive\Documents\GitHub\GPTPilot\GPTPilot-Client\GPTPilot.cpp(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Window.cpp
+C:\Users\hansh\OneDrive\Documents\GitHub\GPTPilot\GPTPilot-Client\Window.cpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  正在產生程式碼...
+.\Debug\64\Connector.obj : warning LNK4042: 指定物件超過一次，已忽略多餘的部分
+     正在建立程式庫 .\Debug\64\Hello-World-SDK-3.lib 和物件 .\Debug\64\Hello-World-SDK-3.exp
+  GPTPilot.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\X-Plane 12\Resources\plugins\GptPilot\64\win.xpl
